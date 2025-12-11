@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your-username>/blog-devops-project.git'
+                git branch: 'main', 'url: https://github.com/Arshiya1305/Blog_Flask_App.git'
             }
         }
 
